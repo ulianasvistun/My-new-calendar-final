@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dynamic Calendar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="background"></div>
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button id="prevMonth">◀</button>
+      <h2 id="monthYear"></h2>
+      <button id="nextMonth">▶</button>
+      <button id="langToggle">EN / RU</button>
+    </div>
+
+    <table class="calendar">
+      <thead>
+        <tr id="weekdays"></tr>
+      </thead>
+      <tbody id="calendarBody"></tbody>
+    </table>
+
+    <div class="info">
+      <div class="box">
+        <h3 id="horoscopeTitle"></h3>
+        <p id="horoscopeText"></p>
+      </div>
+      <div class="box">
+        <h3 id="poemTitle"></h3>
+        <p id="poemText"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
